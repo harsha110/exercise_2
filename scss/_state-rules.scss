@@ -3,7 +3,7 @@
   .btn{
     width:300px;
     margin-bottom:3px;
-}
+  }
  }
 }   
 
@@ -11,7 +11,7 @@
 .buttons_all{
   display:flex;
   justify-content:space-between;
-}
+  } 
 
 }
 
@@ -20,36 +20,36 @@
   display:flex;
   width:100%;
   justify-content:space-between;
-}
+  }
   .form-group{
   width:48%;
   background-color:$gray-100;
-}
+  }
 .search1{
   width:48%;
   background-color:$gray-400;
   display:flex;
-}
+  }
 
 .d-block{
   height:600px;
   width:100%;
- }
+  }
 }
 
 @media(min-width:200px){
   html,body
-{
+  {
     width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
- }
+  }
 
 }
 
 @media(max-width:600px){
   .quote{
-  font-size:20px;
-}
+    font-size:20px;
+  }
 }
